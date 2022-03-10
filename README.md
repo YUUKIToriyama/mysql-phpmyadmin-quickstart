@@ -9,7 +9,9 @@ docker-compose up -d
 docker-compose stop
 ```
 
-1. phpMyAdmin にアクセス
+## phpMyAdmin
+
+1. 3000 番ポートにアクセス
 
 ```bash
 http://localhost:3000
@@ -23,6 +25,12 @@ http://localhost:3000
   - `root`
 - パスワード
   - `root`
+
+## MySQL
+
+```bash
+docker exec -it mysql8_container mysql -u root -p
+```
 
 ## 参考
 
