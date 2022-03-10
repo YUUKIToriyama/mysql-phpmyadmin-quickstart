@@ -1,0 +1,2 @@
+# mysql-phpmyadmin-quickstart
+MySQLとphpMyAdminをすぐ使うための設定ファイル
